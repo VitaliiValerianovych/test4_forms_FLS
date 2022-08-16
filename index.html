@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Форми</title>
+  </head>
+  <body>
+    <div class="back">
+      <section>
+        <img class="border1" src="./img/photo.png" alt="My photo" width="200" />
+        <h1>Гушкевич Віталій Валеріанович</h1>
+        <p>Тестове завдання по тегам форм</p>
+      </section>
+      <form
+        class="forma"
+        action="#"
+        method="post"
+        enctype="multipart/form-data"
+      >
+        <div class="border2">
+          <p>Ім'я</p>
+          <input placeholder="Ім'я" tabindex="1" type="text" name="username" />
+        </div>
+        <div class="border3">
+          <p>Пароль</p>
+          <input
+            placeholder="pass"
+            tabindex="2"
+            type="password"
+            name="userpass"
+          />
+        </div>
+        <div class="border4">
+          <p>Телефон</p>
+          <input
+            placeholder="+380991112233"
+            tabindex="3"
+            type="tel"
+            name="userphone"
+          />
+        </div>
+        <div class="border5">
+          <p>П.І.Б</p>
+          <input
+            placeholder="Прізвище"
+            tabindex="4"
+            type="text"
+            name="username"
+          />
+          <input placeholder="Ім'я" tabindex="5" type="text" name="username" />
+          <input
+            placeholder="По батькові"
+            tabindex="6"
+            type="text"
+            name="username"
+          />
+        </div>
+        <p><u>Місце проживання</u></p>
+        <div>
+          <p>Область</p>
+          <select class="border6" tabindex="7" name="region">
+            <option value="Kyiv">Київська</option>
+            <option selected value="Dnipro">Дніпропетровська</option>
+            <option value="Khmel">Хмельницька</option>
+            <option value="Rivne">Рівненська</option>
+          </select>
+          <p>Район</p>
+          <select class="border6" tabindex="8" name="rayon">
+            <option value="Shepet">Шепетівський</option>
+            <option value="Starkon">Старокостянтинівський</option>
+            <option selected value="Khmel">Хмельницький</option>
+            <option value="K-Podil">Кам'янець-Подільський</option>
+          </select>
+          <p>Місто</p>
+          <select class="border6" tabindex="9" name="city">
+            <option value="Khmel">Хмельницький</option>
+            <option value="Starkon">Старокостянтинів</option>
+            <option selected value="Shepet">Шепетівка</option>
+            <option value="K-Podil">Кам'янець-Подільський</option>
+            <option value="Polonne">Полонне</option>
+          </select>
+          <p>Вулиця</p>
+          <select class="border6" tabindex="10" name="street">
+            <option value="Pryvok">Привокзальна</option>
+            <option value="Herasym">Ак.Герасимчука</option>
+            <option selected value="L-Ukr">Лесі Українки</option>
+            <option value="Zavod">Заводська</option>
+          </select>
+          <p>Будинок/Квартира</p>
+          <select class="border7" tabindex="11" name="bild">
+            <option value="253">253</option>
+            <option value="73">73</option>
+            <option selected value="5">5</option>
+            <option value="55">55</option>
+          </select>
+          <select class="border7" tabindex="12" name="ft">
+            <option value="17">17</option>
+            <option value="113">113</option>
+            <option selected value="99">99</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <div>
+          <p>Стать</p>
+          <div>
+            <input
+              checked
+              tabindex="13"
+              type="radio"
+              name="gender"
+              value="male"
+            />Чоловіча
+          </div>
+          <div>
+            <input
+              tabindex="14"
+              type="radio"
+              name="gender"
+              value="female"
+            />Жіноча
+          </div>
+        </div>
+        <div>
+          <p>Майно</p>
+          <div>
+            <input
+              checked
+              tabindex="15"
+              type="checkbox"
+              name="velo"
+              value="yes"
+            />Велосипед
+          </div>
+          <div>
+            <input
+              tabindex="16"
+              type="checkbox"
+              name="car"
+              value="yes"
+            />Автомобіль
+          </div>
+          <div>
+            <input
+              disabled
+              tabindex="17"
+              type="checkbox"
+              name="house"
+              value="yes"
+            />Будинок
+          </div>
+        </div>
+        <div>
+          <p>Сімейний стан</p>
+          <div>
+            <input
+              checked
+              tabindex="18"
+              type="radio"
+              name="family"
+              value="yes"
+            />Одружений/-на
+          </div>
+          <div>
+            <input tabindex="19" type="radio" name="family" value="no" />Не
+            одружений/-на
+          </div>
+        </div>
+        <div>
+          <p>Діти</p>
+          <div>
+            <input
+              checked
+              tabindex="20"
+              type="radio"
+              name="child"
+              value="yes"
+            />Маю
+          </div>
+          <div>
+            <input tabindex="21" type="radio" name="child" value="no" />Не маю
+          </div>
+          <p>Кількість дітей</p>
+          <select tabindex="22" name="childs">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option selected value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+        <div>
+          <p>Додаткова інформація</p>
+          <div>
+            <textarea
+              tabindex="23"
+              placeholder="Введіть текст"
+              name="text"
+              cols="40"
+              rows="5"
+            ></textarea>
+          </div>
+        </div>
+        <div>
+          <div>
+            <p>Прикріпити фото</p>
+            <input tabindex="24" type="file" name="photo" />
+          </div>
+        </div>
+        <div>
+          <div>
+            <p>Улюблений колір моєї собачки</p>
+            <select tabindex="25" name="color">
+              <option value="red">Червоний</option>
+              <option value="yellow">Жовтий</option>
+              <option selected value="green">Зелений</option>
+              <option value="black">Чорний</option>
+              <option value="shit">Лайно</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <p>Дія</p>
+          <div>
+            <button class="border8" tabindex="26" type="submit">
+              Відправити
+            </button>
+            <button class="border8" tabindex="27" type="reset">Очистити</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

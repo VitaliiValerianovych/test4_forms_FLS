@@ -1,0 +1,98 @@
+body {
+	box-shadow: 0px 0px 35px 55px #e4eef0;
+	background-color: #fff;
+	width: 1200px;
+	font-size: 120%;
+	margin: 50px auto;
+	border-radius: 1%;
+	text-align: center;
+	justify-content: center;
+}
+
+.forma {
+	text-align: -webkit-center;
+}
+
+.back {
+	background-color: #e4eef0;
+}
+
+.border1 {
+	border-style: outset;
+	border-radius: 1.55em;
+	border-width: 10px;
+	border-color: white;
+}
+
+.border2 {
+	border-style: outset;
+	border-width: 2px;
+	border-color: blue;
+	width: 270px;
+	padding: 0px 10px 20px 10px;
+	border-radius: .9em;
+	
+}
+.border3 {
+	border-style: dashed;
+	border-width: 4px;
+	border-color: yellowgreen;
+	width: 370px;
+	padding: 0px 10px 20px 10px;
+	border-radius: 1.9em;
+	background: radial-gradient(white 10%, #0aa4b8 60%, blue);
+}
+.border4 {
+	border-style: double;
+	border-width: 9px;
+	border-color: rebeccapurple;
+	width: 280px;
+	padding: 0px 10px 20px 5px;
+	}
+.border5 {
+	border-style: solid;
+	border-width: 4px;
+	border-color: orchid;
+	width: 280px;
+	padding: 0px 10px 20px 10px;
+	background-color: darkgray;
+	}
+.border6 {
+	border-style: inset;
+	border-width: 7px;
+	border-color: goldenrod;
+	width: 190px;
+	border-radius: 1.9em;
+}
+.border7 {
+	border: 2mm solid slategrey;
+	width: 80px;
+	height: 40px;
+	border-radius: 1rem;
+	background-color: darkolivegreen;
+	font-weight: bold;
+	color: #fff;
+	padding: 0 10px;
+}
+.border8 {
+	border: 3mm outset green;
+	border-radius: 2rem;
+	background-color: #01561a;
+	color:goldenrod;
+	width: 220px;
+	height: 70px;
+	font-size: 130%;
+	font-weight: bold;
+	box-shadow: 0px 0px 35px 10px green;
+}
+:active.border8 {
+	border: 3mm inset green;
+	border-radius: 2rem;
+	background-color: #00521f;
+	color: gold;
+	width: 220px;
+	height: 70px;
+	font-size: 130%;
+	font-weight: bold;
+	box-shadow: 0px 0px 35px 10px #008000b3;
+}
